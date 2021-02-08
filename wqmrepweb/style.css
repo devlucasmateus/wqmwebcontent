@@ -1,0 +1,75 @@
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Lexend Mega', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+
+/* Barra Header */
+body{
+    background-color: white;
+    background-image: url(imgs/navbar.png);
+    background-size: 100%;
+    position: sticky;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.headerbar_back {
+    border: 0cm;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: sticky;
+
+}
+
+.headerbar_back span img{
+    max-width: 600px;
+    position: sticky;
+    max-width: 22%;
+    float: left;
+    mask-position: 0px;
+}
+.headerbar_back ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: transparent;
+    padding-top: 2%;
+    position: sticky;
+}
+
+.headerbar_back li {
+    float: right;
+}
+
+.headerbar_back li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    padding: 14px 17px;
+    border-radius: 5px 5px 5px 5px;
+    position: sticky;
+    font-size: 20px;
+}
+
+.headerbar_back li a:hover {
+    background-color: darkgray;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.headerbar_back img:hover
+{
+    float: left;
+    position: static;
+    opacity: 50%;
+}
+
+/* Body Site */
